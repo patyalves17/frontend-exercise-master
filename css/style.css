@@ -1,0 +1,34 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/04/2016, 08:22:55
+    Author     : paalmeida
+*/
+
+@font-face {
+font-family: GOTHAM-BLACK;
+src: url('fonts/GOTHAM-BLACK.OTF');
+}
+@font-face {
+font-family: GOTHAM-LIGHT;
+src: url('fonts/GOTHAM-LIGHT.OTF');
+}
+
+h1,h2,h3,h4,h5{
+    font-family: GOTHAM-BLACK;
+}
+body{
+     font-family: GOTHAM-LIGHT;
+     color:  #000;
+}
+
+.carousel-inner .item img{
+    max-height:  423px;
+}
+
+.mini img{
+    max-height:  120px;
+}
