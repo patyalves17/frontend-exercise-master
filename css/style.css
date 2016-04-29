@@ -17,7 +17,7 @@ font-family: GOTHAM-LIGHT;
 src: url('fonts/GOTHAM-LIGHT.OTF');
 }
 
-h1,h2,h3,h4,h5{
+h1,h2,h3,h5{
     font-family: GOTHAM-BLACK;
 }
 body{
@@ -26,9 +26,19 @@ body{
 }
 
 .carousel-inner .item img{
-    max-height:  423px;
+    max-height:  323px;
 }
 
 .mini img{
-    max-height:  120px;
+    max-height:  100px;
+}
+.padding{
+    padding-left:40px;
+}
+.padding-top{
+    padding-top: 30px;
+}
+strong{
+    font-family: GOTHAM-BLACK;
+    src: url('fonts/GOTHAM-BLACK.OTF');
 }

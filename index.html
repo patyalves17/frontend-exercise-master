@@ -11,8 +11,10 @@
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
         <!-- você pode adicionar os arquivos do boostrap, se quiser -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet/less" type="text/css" href="less/bootstrap.less" />
+        <script src="js/less.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/style.css"> 
+
     </head>
 
     <body>
@@ -21,70 +23,161 @@
 
             <br/>
             <div class="row ">
-                <div class="col-md-12"> <h1>CURVES</h1></div>
+                <div class="col-md-12"> <h1>CURVES</h1></div>  
+            </div>
+
+
+
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <div class="row">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="images/women-doing-pilates.jpg" alt="Pilates" >
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/Women-doing-Pilates2.jpg" alt="Pilates">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img src="images/pilates-image-site.jpg" alt="Pilates">
+                                <div class="carousel-caption">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="mini">
+                        <img src="images/women-doing-pilates.jpg" alt="..." class="">
+                        <img src="images/Women-doing-Pilates2.jpg" alt="..." class="">
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding">
+                <div class="row">
+                    <h1>PILATES</h1>
+                    <p>Duis dignissim ligula ac tellus pulvinar, ac ultrices neque cursus. Etiam mauris mauris, efficitur ut metus a, facilisis dapibus erat. Proin porttitor ligula diam, a maximus erat dictum ut. Curabitur in rhoncus augue, in elementum urna. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tristique eu ex et pharetra. Donec finibus hendrerit metus venenatis finibus. Aenean non ex nec lacus sagittis laoreet. Curabitur interdum elementum quam, in suscipit leo interdum id. Morbi vitae aliquam nunc. Fusce augue erat, imperdiet vitae eros ac, pharetra auctor lacus.  </p>
+                </div>
+                <div class="row">
+                    <h1>30% OFF</h1>
+                    <p>De RS 354,00 por apenas <span class="text-success"><strong>R$ 175,00</strong></span></p> 
+                    <p><span class="text-danger"><strong>15 GLAMGIRLS </strong>JÁ TROCARAM</span></p>
+                </div>
+                <div class="row">
+                    <button type="button" class="btn btn-default btn-lg">EU QUERO AGORA </button>
+                </div>
+               
             </div>
 
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <div class="row">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            </ol>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding-top">
+                <div class="row">
+                    <p>Pioneira entre as academias fuli service no Brasil, a Runner foi fundada em 1983. A
+                        primeira unidade Runner, localizada no Jardim Europa, na Rua Professor Artur
+                        Ramos, fez sucesso logo no início de suas atividades. devido à estrutura inovadora e
+                        a variedade de serviços oferecidos. Em poucos meses de atividades, a academia já
+                        contava com um número expressivo de alunos. Foi quando a Runner sentiu a necessi-
+                        dade de crescer e inaugurou a segunda unidade, no ano de 1986. localizada em
+                        Moema. O crescimento não parou por aí e, em 2007, a Runner tomou uma importan-
+                        te decisão em sua história: firmar o contrato de licença e uso de marca e abrir unida-
+                        (les licenciadas por todo o Brasil. Ao adotar o modelo de licenciamento de marca, a
+                        Runner conseguiu expandir sua atuação e hoje é uma rede de 19 academias em cons-
+                        tante crescimento.
+                    </p>
+                    <h4>LOCAL</h4>
+                    <P>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie conse-
+                        quaL vel illum dobre eu feugiat nulla tacilisis at vero eros et accumsan et iusto odio
+                        dignissim qui blandit praesent luptatum zzril delenit augue duis dobre te feugait nulla fa c i 1 i 5 i</P>
+                    <h4>VALIDADE</h4>
+                    <P>Claritas est etiam processus clynamicus, qui sequitur mutationem consuetudium lec-
+                        torum. Mirum est notare quam littera gothica, quam nunc putamus parum claram,
+                        anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta
+                        clecima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in
+                        futurum.</P>
 
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <img src="images/women-doing-pilates.jpg" alt="Pilates" >
-                                    <div class="carousel-caption">
-                                       
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="images/Women-doing-Pilates2.jpg" alt="Pilates">
-                                    <div class="carousel-caption">
-                                        
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <img src="images/pilates-image-site.jpg" alt="Pilates">
-                                    <div class="carousel-caption">
-                                        
-                                    </div>
-                                </div>
-                                
-                            </div>
+                </div>
+                
 
-                            <!-- Controls -->
-                            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                        <div class="mini">
-                            <img src="images/women-doing-pilates.jpg" alt="..." class="">
-                            <img src="images/Women-doing-Pilates2.jpg" alt="..." class="">
-                            <img src="images/pilates-image-site.jpg" alt="..." class="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        infos
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h1>PILATES</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tristique eu ex et pharetra. Donec finibus hendrerit metus venenatis finibus. Aenean non ex nec lacus sagittis laoreet. Curabitur interdum elementum quam, in suscipit leo interdum id. Morbi vitae aliquam nunc. Fusce augue erat, imperdiet vitae eros ac, pharetra auctor lacus.  </p>
-                        <p>Duis dignissim ligula ac tellus pulvinar, ac ultrices neque cursus. Etiam mauris mauris, efficitur ut metus a, facilisis dapibus erat. Proin porttitor ligula diam, a maximus erat dictum ut. Curabitur in rhoncus augue, in elementum urna. 
-                       </p>
-                </div>
             </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding  padding-top" >
+                <div class="row">
+                    <h4>ENQUETE</h4>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding">
+
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                Gostei
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                Não Gostei
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding">
+                        <div class="row">
+                            <p class="bg-success">85% gostou</p>
+                            <p class="bg-danger">15% não gostou</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row col-lg-6 col-md-7 col-sm-7 col-xs-12">
+                    <button type="button" class="btn btn-default btn-lg btn-block">Enviar </button>
+
+                </div>
+
+
+            </div>
+            </div>
+            <hr>
+                <div class="row">
+                    OUTRAS OFERTAS
+                </div>
+            <BR/><BR/><BR/><BR/><BR/><BR/>
+
+
+
+
+
+
+
+
+
         </div>
 
         <script src="js/jquery.min.js"></script>
